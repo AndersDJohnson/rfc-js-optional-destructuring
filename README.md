@@ -7,7 +7,7 @@ we either reach for destructuring or optional chaining.
 We can use `= {}` defaulting at each level, but this is verbose and hard to read, and often TypeScript complains about these default objects not conforming to the expected types.
 
 ```js
-const c = { nest: { value1, deep: { value2 } = {} } = {} } = object
+const { nest: { value1, deep: { value2 } = {} } = {} } = object
 ```
 
 We could use `?:` like TypeScript to support per-field optionality:
