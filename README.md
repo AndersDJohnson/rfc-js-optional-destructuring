@@ -18,7 +18,7 @@ const { nest?: { value1, deep?: { value2 } } } = object
 // now we have `value1` and `value2` with their values or `undefined`.
 ```
 
-Second idea - apply optionality to the whole expression with `?` prefix or suffix:
+Also, maybe we could apply optionality to the whole expression with `?` prefix or suffix:
 
 ```js
 const ? { nest: { value1, deep: { value2 } } } = object
