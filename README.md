@@ -40,5 +40,5 @@ const safe { nest: { value1, deep: { value2 } } } = object
 const optional { nest: { value1, deep: { value2 } } } = object
 ```
 
-I could see a runtime version of this using Proxy objects (perhaps something like my [`stub-obj-proxy`](https://github.com/AndersDJohnson/stub-obj-proxy)).
+I could see a runtime version of this using Proxy objects (perhaps something like my [`stub-obj-proxy`](https://github.com/AndersDJohnson/stub-obj-proxy)), perhaps with a Babel plugin to optimize it for production runtime use.
 
