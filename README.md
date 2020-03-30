@@ -39,3 +39,6 @@ const safe { nest: { value1, deep: { value2 } } } = object
 ```js
 const optional { nest: { value1, deep: { value2 } } } = object
 ```
+
+I could see a runtime version of this using Proxy objects (perhaps something like my [`stub-obj-proxy`](https://github.com/AndersDJohnson/stub-obj-proxy)).
+
